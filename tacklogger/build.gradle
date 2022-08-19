@@ -46,13 +46,11 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                release(MavenPublication) {
-                    from components.release
+                //from components.release
 
-                    groupId = 'com.github.aiithak'
-                    artifactId = 'tack-utils-android'
-                    version = '0.0.0'
-                }
+                groupId = 'com.github.aiithak'
+                artifactId = 'tack-utils-android'
+                version = '0.0.0'
             }
         }
     }
